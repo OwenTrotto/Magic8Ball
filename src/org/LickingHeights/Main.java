@@ -7,24 +7,21 @@ public class Main {
     public static void main(String[] args) {
 	//
 
+
+        Scanner Keyboard;
         int firstNumber = 1-10 ;
         int secondNumber = 11-20;
         int thirdNumber = 21-30;
-
         String Magic;
-
-        Scanner Keyboard;
-
         Keyboard = new Scanner(System.in);
         Magic = Keyboard.nextLine();
 
 
 
 
-            if (firstNumber==56) {
+            if (firstNumber==11) {
                 System.out.println("You will become famous");
-                }
-
+            }
                 else if (firstNumber<0) {
                 System.out.println("You will find $10");
             }
@@ -37,9 +34,14 @@ public class Main {
                 System.out.println("You will die alone");
             }
 
+
             if (thirdNumber==21) {
-                System.out.println("");
+                System.out.println(" you will have 7 years of luck");
             }
+
+            else if (thirdNumber<=25) {
+                System.out.println("your dog died");
+        }
 
 
 
