@@ -17,10 +17,12 @@ public class Main {
         String ninthResponse = "you will die";
         String tenthResponse = "you have no friends";
         String eleventhResponse = "Try Again";
+        String Magic;
 
         //you are filling this number out by what the user gives you.
-        int number = 32;
-        
+        int number = 14;
+
+
 
         if (number > 0 && number < 10) {
             System.out.println(firstResponse);
